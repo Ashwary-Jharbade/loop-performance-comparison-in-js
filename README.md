@@ -1,6 +1,6 @@
 ﻿# loop-performance-comparison-in-js
 
-### Comparing results after doing 1 crore additions inside following loop's body
+### Comparing results after doing 1 crore additions on array inside following loop's body
 
 Sr. No. | Loop Name | Sum Result | Time Consumed (seconds)
 --------|-----------|------------|------------------------
@@ -16,3 +16,18 @@ Sr. No. | Loop Name | Sum Result | Time Consumed (seconds)
 10 | For of (type conversion Number) | 49999995000000 | 6.338199999988079
 11 | For of (type conversion parseInt) | 49999995000000 | 8.704199999988079
 12 | For of (string iterator) | 49999995000000 | 9.782800000011921
+
+### Comparing results after doing 1 crore additions on object inside following loop's body
+
+Sr. No. | Loop Name | Sum Result | Time Consumed (seconds)
+--------|-----------|------------|------------------------
+1 | Simple for loop (Cached) | 49999995000000 | 0.19639999997615815
+2 | Do while pre decrement | 49999995000000 | 0.031100000023841858
+3 | Do while post decrement | 50000005000000 |  0.03170000004768372
+4 | While pre decrement | 50000005000000 |  0.033300000011920926
+5 | While post decrement | 49999995000000 |  0.03459999996423721
+6 | For of | 49999995000000 | 6.485300000011921
+7 | ForEach | 49999995000000 |  7.519300000011921
+8 | Map | 49999995000000 | 7.650899999976158
+9 | For in  | 49999995000000 | 9.031099999964237
+
