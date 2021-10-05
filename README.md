@@ -4,12 +4,13 @@
 
 Sr. No. | Loop Name | Sum Result | Time Consumed (seconds)
 --------|-----------|------------|------------------------
-1 | Do while pre decrement | 50000005000000 |  0.14210000002384185
-2 | While pre decrement | 50000005000000 |  0.02280000001192093
-3 | While post decrement | 49999995000000 |  0.024899999976158143
-4 | Simple for loop (Cached) | 49999995000000 | 0.02689999997615814
-5 | Do while post decrement | 50000005000000 |  0.027200000047683717
-6 | Simple for loop (Uncached) | 49999995000000 |  0.040800000011920926
+
+1 | While pre decrement | 50000005000000 |  0.02280000001192093
+2 | While post decrement | 49999995000000 |  0.024899999976158143
+3 | Simple for loop (Cached) | 49999995000000 | 0.02689999997615814
+4 | Do while post decrement | 50000005000000 |  0.027200000047683717
+5 | Simple for loop (Uncached) | 49999995000000 |  0.040800000011920926
+6 | Do while pre decrement | 50000005000000 |  0.14210000002384185
 7 | Map | 49999995000000 |  0.7286000000238418
 8 | ForEach | 49999995000000 |  0.7324000000357628
 9 | For in  | 49999995000000 | 6.2085
