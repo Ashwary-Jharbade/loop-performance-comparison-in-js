@@ -21,11 +21,11 @@ Sr. No. | Loop Name | Sum Result | Time Consumed (seconds)
 
 Sr. No. | Loop Name | Sum Result | Time Consumed (seconds)
 --------|-----------|------------|------------------------
-1 | Simple for loop (Cached) | 49999995000000 | 0.19639999997615815
-2 | Do while pre decrement | 49999995000000 | 0.031100000023841858
-3 | Do while post decrement | 49999995000000 |  0.03170000004768372
-4 | While pre decrement | 49999995000000 |  0.033300000011920926
-5 | While post decrement | 49999995000000 |  0.03459999996423721
+1 | Do while pre decrement | 49999995000000 | 0.031100000023841858
+2 | Do while post decrement | 49999995000000 |  0.03170000004768372
+3 | While pre decrement | 49999995000000 |  0.033300000011920926
+4 | While post decrement | 49999995000000 |  0.03459999996423721
+5 | Simple for loop (Cached) | 49999995000000 | 0.19639999997615815
 6 | For of | 49999995000000 | 6.485300000011921
 7 | ForEach | 49999995000000 |  7.519300000011921
 8 | Map | 49999995000000 | 7.650899999976158
