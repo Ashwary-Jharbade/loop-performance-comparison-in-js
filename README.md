@@ -4,7 +4,6 @@
 
 Sr. No. | Loop Name | Sum Result | Time Consumed (seconds)
 --------|-----------|------------|------------------------
-
 1 | While pre decrement | 50000005000000 |  0.02280000001192093
 2 | While post decrement | 49999995000000 |  0.024899999976158143
 3 | Simple for loop (Cached) | 49999995000000 | 0.02689999997615814
